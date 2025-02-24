@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyArraySort",
+            "request": "launch",
+            "mainClass": "FrequencyArraySort",
+            "projectName": "PrimeMax_5fd3d80"
+        },
+        {
+            "type": "java",
+            "name": "array_add_prime",
+            "request": "launch",
+            "mainClass": "array_add_prime",
+            "projectName": "PrimeMax_5fd3d80"
+        },
+        {
+            "type": "java",
+            "name": "arraysum",
+            "request": "launch",
+            "mainClass": "arraysum",
+            "projectName": "PrimeMax_5fd3d80"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "PrimeMax_5fd3d80"
+        },
+        {
+            "type": "java",
+            "name": "tcs",
+            "request": "launch",
+            "mainClass": "tcs",
+            "projectName": "PrimeMax_5fd3d80"
+        }
+    ]
+}
