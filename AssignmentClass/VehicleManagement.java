@@ -43,7 +43,7 @@ abstract class Vehicle {
 class Car extends Vehicle {
     private int numberOfDoors;
 
-    // Extended Setter
+    // Extended Constructor
     public Car(String brand, double fuelCapacity, int numberOfDoors) {
         super(brand, fuelCapacity);
         this.numberOfDoors = numberOfDoors;
@@ -65,7 +65,7 @@ class Car extends Vehicle {
 class ElectricCar extends Car {
     private double batteryLevel;
 
-    // Extended setter
+    // Extended Constructor
     public ElectricCar(String brand, double fuelCapacity, int numberOfDoors, double batteryLevel) {
         super(brand, fuelCapacity, numberOfDoors);
         this.batteryLevel = batteryLevel;
@@ -92,13 +92,13 @@ class ElectricCar extends Car {
 class Motorcycle extends Vehicle {
     private boolean hasSidecar;
 
-    // Extended Setter
+    // Extended constructor
     public Motorcycle(String brand, double fuelCapacity, boolean hasSidecar) {
         super(brand, fuelCapacity);
         this.hasSidecar = hasSidecar;
     }
 
-    // Polymorphism: overriding accelerate (no @Override)
+    // Polymorphism: overriding accelerate
     void accelerate() {
         setSpeed(getSpeed() + 25);
         System.out.println(getBrand() + " (Motorcycle) accelerates. Speed: " + getSpeed());
